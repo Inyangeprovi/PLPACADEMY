@@ -1,0 +1,18 @@
+print("Hello world")
+
+first_number = int(input("Enter the first number: "))
+second_number = int(input("Enter the second number: "))
+operator = input("Enter the name of the operator you want to use (addition, subtraction, multiplication, division): ")
+
+if operator == "addition":
+    answer = first_number + second_number
+elif operator == "subtraction":
+    answer = first_number - second_number
+elif operator == "multiplication":
+    answer = first_number * second_number
+elif operator == "division":
+    answer = first_number / second_number
+else:
+    answer = "Invalid operator"
+
+print("Answer:", answer)
